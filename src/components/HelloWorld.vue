@@ -21,7 +21,9 @@
   <!-- 异步组件 -->
   <!-- <asyncCom></asyncCom> -->
   <!-- <whitelist></whitelist> -->
-  <directiveCom></directiveCom>
+  <!-- <directiveCom></directiveCom> -->
+  <!-- <transitionCom></transitionCom> -->
+  <removedApi></removedApi>
 </template>
 
 <script>
@@ -35,6 +37,8 @@ import { defineAsyncComponent } from 'vue'
 // import asyncCom from './demo/asynccomponent.vue'
 import whitelist from './demo/whitelist.vue'
 import directiveCom from './demo/directive.vue'
+import transitionCom from './demo/transition.vue'
+import removedApi from './demo/removedApi.vue'
 export default {
   name: 'HelloWorld',
   props: {
@@ -51,7 +55,9 @@ export default {
       // loadingComponent: xxx
     }),
     whitelist,
-    directiveCom
+    directiveCom,
+    transitionCom,
+    removedApi
   },
   data() {
     return {
