@@ -23,7 +23,11 @@
   <!-- <whitelist></whitelist> -->
   <!-- <directiveCom></directiveCom> -->
   <!-- <transitionCom></transitionCom> -->
-  <removedApi></removedApi>
+  <!-- <removedApi></removedApi> -->
+  <!-- api实例 -->
+  <!-- <todolist></todolist> -->
+  <!-- 组件实战 -->
+  <projectexp></projectexp>
 </template>
 
 <script>
@@ -39,6 +43,8 @@ import whitelist from './demo/whitelist.vue'
 import directiveCom from './demo/directive.vue'
 import transitionCom from './demo/transition.vue'
 import removedApi from './demo/removedApi.vue'
+import todolist from './demo/todolist.vue'
+import projectexp from './demo/project/projectexp.vue'
 export default {
   name: 'HelloWorld',
   props: {
@@ -57,7 +63,9 @@ export default {
     whitelist,
     directiveCom,
     transitionCom,
-    removedApi
+    removedApi,
+    todolist,
+    projectexp
   },
   data() {
     return {
