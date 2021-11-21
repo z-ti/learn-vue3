@@ -27,7 +27,11 @@
   <!-- api实例 -->
   <!-- <todolist></todolist> -->
   <!-- 组件实战 -->
-  <projectexp></projectexp>
+  <!-- <projectexp></projectexp> -->
+  <!-- vue-router 实例1 -->
+  <routerone></routerone>
+  <!-- vuex 实例 -->
+  <vuexone></vuexone>
 </template>
 
 <script>
@@ -45,6 +49,8 @@ import transitionCom from './demo/transition.vue'
 import removedApi from './demo/removedApi.vue'
 import todolist from './demo/todolist.vue'
 import projectexp from './demo/project/projectexp.vue'
+import routerone from './demo/main/router1/index.vue'
+import vuexone from './demo/main/vuex/index.vue'
 export default {
   name: 'HelloWorld',
   props: {
@@ -65,7 +71,9 @@ export default {
     transitionCom,
     removedApi,
     todolist,
-    projectexp
+    projectexp,
+    routerone,
+    vuexone
   },
   data() {
     return {
