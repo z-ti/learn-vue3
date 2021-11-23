@@ -6,7 +6,7 @@ import './index.css'
 // import('./components/demo/canvas')
 
 // 引入路由配置
-import { router } from './components/demo/main/router1/index.js'
+import { router } from './components/demo/main/router/index.js'
 import { store } from './components/demo/main/vuex/index.js'
 createApp(App)
 .use(router)

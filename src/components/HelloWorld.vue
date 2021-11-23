@@ -31,7 +31,8 @@
   <!-- vue-router 实例1 -->
   <routerone></routerone>
   <!-- vuex 实例 -->
-  <vuexone></vuexone>
+  <!-- <vuexone></vuexone> -->
+  <cssModule></cssModule>
 </template>
 
 <script>
@@ -49,8 +50,9 @@ import transitionCom from './demo/transition.vue'
 import removedApi from './demo/removedApi.vue'
 import todolist from './demo/todolist.vue'
 import projectexp from './demo/project/projectexp.vue'
-import routerone from './demo/main/router1/index.vue'
+import routerone from './demo/main/router/index.vue'
 import vuexone from './demo/main/vuex/index.vue'
+import cssModule from './demo/main/vite/cssModule.vue'
 export default {
   name: 'HelloWorld',
   props: {
@@ -73,7 +75,8 @@ export default {
     todolist,
     projectexp,
     routerone,
-    vuexone
+    vuexone,
+    cssModule
   },
   data() {
     return {
