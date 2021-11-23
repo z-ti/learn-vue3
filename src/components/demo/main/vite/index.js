@@ -36,5 +36,6 @@
  * eslint
  *   通过prettier做代码格式化 详见配置
  *
- *
+ * jest,gitHooks等详见配置文件
+ *   
  */
