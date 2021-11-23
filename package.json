@@ -7,13 +7,6 @@
     "lint": "eslint \"src/**/*.{js,vue}\"",
     "test": "jest --runInBand"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged",
-    "pre-push": "npm run test"
-  },
-  "lint-staged": {
-    "*.{js,vue}": "eslint"
-  },
   "dependencies": {
     "@vitejs/plugin-vue": "^1.9.4",
     "autoprefixer": "^10.4.0",

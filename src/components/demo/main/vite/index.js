@@ -36,6 +36,17 @@
  * eslint
  *   通过prettier做代码格式化 详见配置
  *
- * jest,gitHooks等详见配置文件
+ * jest 详见配置
+ * 
+ * gitHooks
+ *   npm i lint-staged yorkie - D
+ *   package.json 里添加：
+ *     "gitHooks": {
+ *        "pre-commit": "lint-staged",
+ *        "pre-push": "npm run test"
+ *     },
+ *     "lint-staged": {
+ *        "*.{js,vue}": "eslint"
+ *     }
  *   
  */
