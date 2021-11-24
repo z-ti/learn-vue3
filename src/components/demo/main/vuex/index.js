@@ -9,6 +9,14 @@ const store = createStore({
         add(state) {
             state.count ++ 
         }
+    },
+    actions: {
+        fetchApi({commit}, data) {
+            console.log('配置信息', import.meta.env.VITE_TOKEN)
+            fetch('/api/users').then(res => res.json()).then(res => {
+                console.log('请求结果', res)
+            })
+        }
     }
 })
 

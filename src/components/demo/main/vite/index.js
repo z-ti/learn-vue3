@@ -48,5 +48,14 @@
  *     "lint-staged": {
  *        "*.{js,vue}": "eslint"
  *     }
+ * 
+ * 项目配置 见 vite.config.js
+ *   
+ * 数据mock
+ *  npm i mockjs -S
+ *  npm i vite-plugin-mock cross-env -D
+ *  在vite.config.js 配置 plugins
+ *  创建mock文件，并写入mock数据
+ *  修改package.json "dev": "cross-env NODE_ENV=development vite",
  *   
  */

@@ -5,6 +5,7 @@
     <!-- {{state.count}} -->
     {{count}}
     <button @click="add">+</button>
+    <button @click="fetchApi">调接口</button>
 </template>
 <script>
 import { toRefs } from '@vue/reactivity'
@@ -17,6 +18,9 @@ export default {
             ...toRefs(store.state),
             add() {
                 store.commit('add')
+            },
+            fetchApi() {
+                store.dispatch('fetchApi')
             }
         }
     }
